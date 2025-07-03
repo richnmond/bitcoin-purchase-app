@@ -37,7 +37,7 @@ export default function App() {
       },
       () => {
         fetch("https://ipapi.co/json/")
-          .then((res) => res.json())
+          .then((res) => res.json())                                                                                                                                            
           .then((data) =>
             setLocation({ lat: data.latitude, lon: data.longitude })
           );

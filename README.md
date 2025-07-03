@@ -9,4 +9,33 @@ Currently, two official plugins are available:
 
 ## Expanding the ESLint configuration
 
+ Login system
+
+🪙 Bitcoin purchase with OTP
+
+🌍 Location tracking
+
+📋 Purchase history
+
+🔐 Logout functionality
+
+🔔 Toast notifications
+
+
+
+
+Email-based mock login
+
+HTML5/IP geolocation
+
+Live BTC price (CoinGecko)
+
+OTP-based mock 2FA
+
+Purchase limit per session
+
+In-memory transaction history
+
+Responsive layout (mobile-first)
+
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
