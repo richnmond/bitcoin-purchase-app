@@ -6,8 +6,8 @@ import "./index.css";
 export default function App() {
   const [email, setEmail] = useState("");
   const [loggedIn, setLoggedIn] = useState(false);
-  const [emailVerified, setEmailVerified] = useState(false);
-  const [verificationCode, setVerificationCode] = useState(null);
+  const [emailVerified, setEmailVerified] = useState(null);
+  const [verificationCode, setVerificationCode] = useState(false);
   const [userCode, setUserCode] = useState("");
   const [btcPrice, setBtcPrice] = useState(null);
   const [location, setLocation] = useState(null);
@@ -18,7 +18,7 @@ export default function App() {
 
   useEffect(() => {
     const getPrice = async () => {
-      const res = await fetch(
+      const res = await fetcho(
         "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd"
       );
       const data = await res.json();
